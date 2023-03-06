@@ -1,0 +1,22 @@
+{
+  "name": "logify",
+  "version": "1.2.1",
+  "description": "A general purpose nodejs logging library.",
+  "main": "lib.js",
+  "scripts": {
+    "test": "echo \"Logify\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thewhistledev/logify.git"
+  },
+  "keywords": [
+    "logify"
+  ],
+  "author": "thewhistledev",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/thewhistledev/logify/issues"
+  },
+  "homepage": "https://github.com/thewhistledev/logify#readme"
+}
