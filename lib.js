@@ -99,23 +99,16 @@ class Logify extends EventEmitter {
     }
   }
 }
-/**
- * Checks if a string is empty or not.
- * @param {string} str - The string to check.
- * @returns {boolean}
- * @example
- * isEmpty(''); // true
- * isEmpty(' '); // false
- * isEmpty('foo'); // false
- * isEmpty(' foo'); // false
- */
+
 
 class IsEmpty extends String { //extends the string class to add IsEmpty which is not a native method of the string class.
-    constructor() {
-        this.length = 0;
-    }
-    isEmpty() {
-        return this.length === 0;
+    /**
+     * Check if string is empty or not.
+     * @param {*} string 
+     * @returns a true or false value depending on whether the string is empty or not.
+     */
+    constructor(string) {
+        return string.length === 0;
     }
 }
 
