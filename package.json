@@ -1,5 +1,5 @@
 {
-  "name": "@thewhistledev/logify",
+  "name": "@whistledev/logify",
   "version": "1.2.1",
   "description": "A general purpose nodejs logging library.",
   "main": "lib.js",
