@@ -12,7 +12,7 @@ const levels = {
   FATAL: 4
 };
 
-class Logger extends EventEmitter {
+class Logify extends EventEmitter {
   constructor(options = {}) {
     super();
 
@@ -120,4 +120,4 @@ class IsEmpty extends String { //extends the string class to add IsEmpty which i
 }
 
 
-module.exports = Logger, IsEmpty;
+module.exports = Logify, IsEmpty;
